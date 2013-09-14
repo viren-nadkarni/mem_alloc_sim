@@ -8,5 +8,5 @@ lib.o: lib.c
 	gcc -I . -c lib.c
 	
 clean:
-	rm -r *.o
+	rm -r *.o *.gch
 
